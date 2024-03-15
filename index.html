@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#">
+        <label for="firstName">First Name</label>
+        <input class="name" type="text" id="firstName"><span></span><br><br>
+        <label for="middleName">Middle Name</label>
+        <input class="name" type="text" id="middleName"><span></span><br><br>
+        <label for="lastName">Last Name</label>
+        <input class="name" type="text" id="lastName"><span></span><br><br>
+
+        <label for="course">Course</label>
+        <select id="course">
+            <option value="">Course</option>
+            <option value="BCA">BCA</option>
+            <option value="BTECH">BTECH</option>
+            <option value="MBA">MBA</option>
+        </select><br><br>
+
+        <label for="gender">Gender</label>
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="others">
+            <label for="others">Others</label>
+        </div><br>
+
+        <!-- <label for="phone">Contact number</label>
+        <select id="phone">
+            <option class="phone" value="+91">+91</option>
+            <option class="phone" value="+112">+112</option>
+            <option class="phone" value="+113">+113</option>
+            <option class="phone" value="+69">+69</option>
+        </select>
+        <input type="number" class="phn"><span class="sp"></span><br><br> -->
+
+        <label for="address">Address</label>
+        <textarea id="address" cols="5" rows="1"></textarea><br><br>
+
+        <label for="mail">Email</label>
+        <input type="email" id="mail"><br><br>
+
+        <label for="pass">Password</label>
+        <input type="password" id="pass" class="pass"><br><br>
+
+        <label for="cpass">Confirm Password</label>
+        <input type="password" id="cpass" class="pass"><span class="ps"></span><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

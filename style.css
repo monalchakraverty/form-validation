@@ -1,0 +1,8 @@
+form{
+    border: 3px solid darkgreen;
+    width: 500px;
+    margin: 3px auto;
+    padding: 30px;
+    background-color: lightcoral;
+    border-radius: 15px;
+}
